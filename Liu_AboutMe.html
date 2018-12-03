@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"><!--link to google fonts for special styling-->
     </head>
     <body>
-       <header class="container">
-           <div>
+       <header>
+           <div> <!--same code for the navigation bar as index.html-->
                 <nav class="nav nav-pills nav-fill">
                     <a href="index.html" class="nav-item nav-link">Home </a>
                     <a href="Liu_AboutMe.html" class="nav-item nav-link active">About Me</a>
@@ -16,35 +17,38 @@
                 </nav>   
             </div>
         </header>
-        <div class="jumbotron text-center">
-                <h1>About Me</h1>
-                <p>I am a freshman student here at Dublin High School taking my 
-                first engineering based course!</p>
-        </div>
         
+        <div class="jumbotron text-center"> <!--Currently no container on the jumbotron class-->
+                <h1 class="specialfont">About Me</h1> <!--Large text on jumbotron-->
+                <p class="specialfont2">I am a freshman student here at Dublin High School taking my 
+                first engineering based course!</p> <!--Small text on jumbotron-->
+        </div
+ 
         
         <section class="main">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 text-center"> <!--specifies position of image on page-->
                         <a href=#>
-                            <img src="Images/profilepic.jpg" class="img-thumbnail">
+                            <img src="Images/myface.png" class="img-thumbnail">
                         </a>
                     </div>
-                    <div class="col-md-9 text-center">
-                    <p class="text-justify float-right">Hey! My name is 
-                    Grace Liu and I hope to become a experienced programmer by 
-                    the end of my high school career. I have a strong interest 
-                    in engineering, especially software-based, and I applied for
-                    this course to start learning more about code. During my 
-                    sophomore year, I hope to become a member of Dublin High 
-                    School’s Engineering Academy. Before taking this course, 
-                    I have taken lessons in Java and Python outside of school.
+                    <div class="col-md-9 text-center"> <!--text takes up the remaining portion of space on page-->
+                                                       <!--all text has float-right class to stop text from leaning towards the image-->
+                    <p class="text-justify float-right">Hi! My name is 
+                    Grace Liu and I am currently a freshman here at Dublin High School
+                    . I have a strong interest in engineering, especially software-based,
+                    and I hope to develop a solid background in engineering to reach my
+                    goal of working in a field of computer science. To reach this goal,
+                    I plan on applying to Dublin High School’s Engineering Academy as well as
+                    participating in activites that allow me to gain a better
+                    understanding of these subjects. Examples include relevant clubs,
+                    such as robotics, and technology-based summer camps. Before taking 
+                    this course, I took lessons in Java and Python outside of school.
                     They helped me gain a basic understanding of the languages, 
-                    but little experience in coding with them. Computer Science 
-                    Principles has given me opportunities to work on
-                    developing projects with other people that have similar 
-                    interests. I am interested in STEM because of the 
+                    but little experience in coding with them. By the end of my high school career,
+                    I hope to have sufficiently developed a basis for any job in the future.
+                    I am interested in STEM because of the 
                     opportunities in those fields.</p>
                     <br></br>
                     <p class="text-justify float-right">Extracurricular 
@@ -81,13 +85,13 @@
 
         <br></br>
 
-        <footer>
+        <footer> <!--see comments on footer in index.html-->
             <div class="jumbotron">
                 <div class="row">
                     <a href="mailto:nakamura.class3e@gmail.com" target="_blank" class="col-sm-2">
                         <img src="Images/maillogo.png" class="img-fluid" style='max-width: 100%; height: auto' alt="Mail Icon">
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="col-sm-2">
+                    <a href="https://www.instagram.com/graciebelle.liu/" target="_blank" class="col-sm-2">
                         <img src="Images/instaglogo.png"class="img-fluid" style='max-width: 100%; height: auto' alt="Instagram">
                     </a>
                     <a href="https://www.dublin.k12.ca.us/dhs" target="_blank" class="col-sm-8 float-right">

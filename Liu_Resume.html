@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> <!--link to google fonts for special styling-->
     </head>
     <body>
-       <header class="container">
-           <div>
+       <header>
+           <div> <!--same code for the navigation bar as index.html-->
                 <nav class="nav nav-pills nav-fill">
                     <a href="index.html" class="nav-item nav-link">Home </a>
                     <a href="Liu_AboutMe.html" class="nav-item nav-link">About Me</a>
@@ -17,16 +18,17 @@
             </div>
         </header>
         <div class="jumbotron text-center">
-                <h1>Grace Liu</h1>
-                <a href="Resume.pdf" target="_blank">Click here to download my full resume</a>
+                <h1 class="specialfont">Grace Liu</h1> <!--large text on jumbotron-->
+                <p class="specialfont2"><a href="Resume.pdf" target="_blank">Click here to download my full resume</a></p> 
+                <!--linked to a pdf version of resume, same link found at the end of resume--> <!--small text on jumbotron-->
         </div>
         
         <div class="container">
-           <h3>Resume</h3>
+           <h3>Resume</h3> <!--hardcoded full resume on webpage-->
              <p>Email: forevergrace.15@gmail.com <br /> Location: Dublin, California </p>
-            <br />
+            <br /> <!--breaks organize the information into sections-->
             
-           <h5>Objective</h5>
+           <h5>Objective</h5> <!--all section titles are in h5 to differentiate from paragraph text-->
              <p>To work in a computer science related field such as software engineering or machine learning</p>
             <br />
             
@@ -65,16 +67,19 @@
              <p>Art and Badminton: Hobbies</p>
             <br />
             
-            <h6><a href="Resume.pdf" target="_blank">Click here to download my full resume</a></h6>
+            <h6><a href="Resume.pdf" target="_blank">Click here to download my full resume</a></h6> <!--same code as above to 
+            download pdf version of resume-->
             <br />
         </div>
-        <footer>
+        
+        
+        <footer> <!--see comments on index-html for this code-->
             <div class="jumbotron">
                 <div class="row">
                     <a href="mailto:nakamura.class3e@gmail.com" target="_blank" class="col-sm-2">
                         <img src="Images/maillogo.png" class="img-fluid" style='max-width: 100%; height: auto' alt="Mail Icon">
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="col-sm-2">
+                    <a href="https://www.instagram.com/graciebelle.liu/" target="_blank" class="col-sm-2">
                         <img src="Images/instaglogo.png" class="img-fluid" style='max-width: 100%; height: auto' alt="Instagram">
                     </a>
                     <a href="https://www.dublin.k12.ca.us/dhs" target="_blank" class="col-sm-8 float-right">

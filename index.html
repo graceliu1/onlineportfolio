@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> <!--link to google fonts for special styling-->
     </head>
     <body>
-       <header class="container">
-           <div>
+       <header class=""> <!--add or remove container class-->
+           <div> <!--code for the navigation bar, used nav-pills instead of list-->
                 <nav class="nav nav-pills nav-fill">
                     <a href="index.html" class="nav-item nav-link active">Home </a>
                     <a href="Liu_AboutMe.html" class="nav-item nav-link">About Me</a>
@@ -17,16 +18,16 @@
             </div>
         </header>
        
-        <div class="jumbotron text-center">
-                <h1>Grace Liu's Engineering Portfolio</h1>
-                <p>Welcome to my online portfolio</p>
+        <div class="jumbotron text-center"> <!--currently no container on the jumbotron class-->
+                <h1 class="specialfont">Grace Liu's Engineering Portfolio</h1> <!--Large text on jumbotron-->
+                <p class="specialfont2">Welcome to my online portfolio</p> <!--Small text on jumbotron-->
         </div>
          
         
-        <div class="container"> <!--reeeeeeeet this is interesting because this i strange)-->
+        <div class="container" > <!--add or remove container class - temporary modification-->
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="card flex-sm-row">
+                    <div class="card flex-sm-row"> <!--ensures the width is flexible on different sized screens-->
                         <div class="card-body">
                             <strong>
                             <h6>Projects</h6> 
@@ -35,12 +36,13 @@
                             </strong>
                             <p>Over the summer, I took Biology with Research at 
                             a Dublin Partners In Education program (DPIE). I participated...</p>
-                            <a href="Liu_Projects.html" class="btn btn-primary">Continue Reading</a>
+                            <a href="Liu_Projects.html" class="btn btn-primary">Continue Reading</a> <!--small change, button instead of link-->
                         </div>
-                        <img src="Images/sciencefair.jpg" class="card-img-right flex-sm-row" width=200px height=180px>
+                        <img src="Images/sciencefair.jpg" class="card-img-right flex-sm-row" style='max-width:220px; max-height:180px'> <!--images on cards
+                        have max on dimensions to prevent stretching-->
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6"> <!--cards only take up half the screen regardless of amount of text-->
                     <div class="card flex-sm-row">
                         <div class="card-body">
                             <strong>
@@ -53,13 +55,14 @@
                             at the start. </p>
                             <a href="Liu_Projects.html"  class="btn btn-primary">Continue Reading</a>
                         </div>
-                        <img src="Images/spaceinvaders.PNG" class="card-img-right flex-sm-row" width=184px height=220px>
+                        <img src="Images/spaceinvaders.PNG" class="card-img-right flex-sm-row" style='max-width:184px; max-height:220px'><!--images on cards
+                        have max on dimensions to prevent stretching-->
                     </div>
                 </div>
             </div>
         </div>
         <br></br>
-        <div class="container">
+        <div class="container"> <!--add or remove container class-->
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card flex-sm-row">
@@ -72,7 +75,8 @@
                             <p>I enjoy playing badminton with friends in my free time...</p>
                             <a href="Liu_Projects.html"  class="btn btn-primary">Continue Reading</a>
                         </div>
-                        <img src="Images/badmintonracket.jpg" class="card-img-right flex-sm-row" width=200px height=180px>
+                        <img src="Images/badmintonracket.jpg" class="card-img-right flex-sm-row" style='max-width:200px; max-height:180px'> 
+                        <!--images on cards have max on dimensions to prevent stretching-->
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -86,23 +90,27 @@
                             <p>Music has been an important part of my life since I started playing piano eight years ago.</p>
                             <a href="Liu_Projects.html"  class="btn btn-primary">Continue Reading</a>
                         </div>
-                        <img src="Images/trebleclef.jpg" class="card-img-right flex-sm-row" width=184px height=220px>
+                        <img src="Images/trebleclef.jpg" class="card-img-right flex-sm-row" style='max-width:184px; max-height:220px'>
+                        <!--images on cards have max on dimensions to prevent stretching-->
                     </div>
                 </div>
             </div>
         </div>
         <br></br>
         
-        <footer>
+        <footer> <!--footer elements are linked to different ways of contacting-->
             <div class="jumbotron">
                 <div class="row">
-                    <a href="mailto:nakamura.class3e@gmail.com" target="_blank" class="col-sm-2">
+                    <a href="mailto:nakamura.class3e@gmail.com" target="_blank" class="col-sm-2"> 
+                    <!--mailto: function sets up an instant draft to specified email address-->
                         <img src="Images/maillogo.png" class="img-fluid" style='max-width: 100%; height: auto' alt="Mail Icon">
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="col-sm-2">
+                    <a href="https://www.instagram.com/graciebelle.liu/" target="_blank" class="col-sm-2">
+                    <!--image links to instagram profile-->
                         <img src="Images/instaglogo.png" class="img-fluid" style='max-width: 100%; height: auto' alt="Instagram">
                     </a>
                     <a href="https://www.dublin.k12.ca.us/dhs" target="_blank" class="col-sm-8 float-right">
+                    <!--links to school webpage, part of contact information and resume location-->
                         <img src="Images/dublinlogo.png" class="img-fluid float-right" style='max-width: 100%; height: auto' alt="Dublin High School Logo">
                     </a>
                 </div>
