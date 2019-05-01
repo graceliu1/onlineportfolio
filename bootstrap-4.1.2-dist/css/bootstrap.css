@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: 'Lato';
+  font-family:  'Glyphicons Halflings';
 }
 
 abbr[title],
@@ -165,7 +165,8 @@ a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  -webkit-text-decoration-skip: object
+  font-family: 'Exo 2', sans-serif;
 }
 
 a:hover {
@@ -363,7 +364,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Lato';
+  font-family: 'Exo 2', sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: black;
@@ -487,7 +488,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #ffe6b3;
+  background-color: #DEC096;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -3939,7 +3940,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: black;
-  background-color: #ffeecc /*#ffe6b3, #f9ebeb*/;
+  background-color: #DEC096 /*#ffe6b3, #f9ebeb*/;
 }
 
 .nav-fill .nav-item {
@@ -4381,7 +4382,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #ffeecc /*other options for the background color: in order of previous changes...#ffe6b3, #f9ebeb, #fdd8ce*/;
+  background-color: #DEC096   /*other options for the background color: in order of previous changes... #ffeecc, #ffe6b3, #f9ebeb, #fdd8ce*/;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;

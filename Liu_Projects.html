@@ -6,9 +6,9 @@
         <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> <!--link to google fonts for special styling-->
     </head>
     <body>
-       <header>
+       <header class="container">
            <div> <!--same code for the navigation bar as index.html-->
-                <nav class="nav nav-pills nav-fill">
+                <nav class="nav navbar nav-pills nav-fill">
                     <a href="index.html" class="nav-item nav-link">Home </a>
                     <a href="Liu_AboutMe.html" class="nav-item nav-link">About Me</a>
                     <a href="Liu_Resume.html" class="nav-item nav-link">Resume</a>
@@ -39,19 +39,19 @@
              
         <div class="card-deck"> <!--lines the cards up next to each other without any overlap-->
            <div class="card"> <!--second card in card deck-->
-            <img class="card-img-top img-center" style='max-width:600px; max-height:450px' src="Images/invaderspic.png" alt="Card image cap">
+            <img class="card-img-top img-center" style='max-width:600px; max-height:366px' src="Images/invaderspic.png" alt="Card image cap">
             <!--image takes up same width as the card itself--> 
             <div class="card-body">
             <!--title is seperate section of card-->
               <h5 class="card-title text-center">Space Invaders</h5>
-              <h6 class="card-text text-center">September 2018-Early October 2018, Computer 
+              <h6 class="card-text text-center">September 2018, Computer 
               Science Principles</h6>
             <!--card body with main summary starts-->
               <p class="card-text text-center">This project was part of my Computer Science 
               Principles class and spanned about three weeks. The objective was to 
               design a successful app using Massachusetts Institute of Technology
               App Inventor software. My role in the project was documenting in our 
-              <a target="_blank" href="https://docs.google.com/document/d/1I_wuyMOFIfbxzZqQh90aIhkxVoiG5UnQgBDpv-KZJ0M/edit?usp=sharing">
+              <a target="_blank" href="https://docs.google.com/document/d/1uHS5U4B0CO4MvFTcYoNHEMSEeU_jzbKetB3250iIzkY/edit?usp=sharing">
               online notebook</a> and programming. My partner was Edward He. At the 
               beginning of this project, we chose a tutorial from the website and developed it further. 
               The primary objective of our final game was to win by gaining 25 points
@@ -66,39 +66,43 @@
             </div>
             <div class="card-footer"> <!--footer for card lines up with other footer with the card deck class-->
             <p>To see our
-              documentation and online notebook, click <a target="_blank" href="https://docs.google.com/document/d/1I_wuyMOFIfbxzZqQh90aIhkxVoiG5UnQgBDpv-KZJ0M/edit?usp=sharing">
+              documentation and online notebook, click <a target="_blank" href="https://docs.google.com/document/d/1uHS5U4B0CO4MvFTcYoNHEMSEeU_jzbKetB3250iIzkY/edit?usp=sharing">
               here</a></p> <!--another link to notebook below text-->
-              <small class="text-muted">Last updated 23 hours ago</small> <!--code for reader to see how long since the most recent change-->
+              <small class="text-muted">Last updated 2 months ago</small> <!--code for reader to see how long since the most recent change-->
             </div>
           </div>
-          <div class="card" style='opacity: 0.35;'> <!--coded so there is only one functioning project on projects page, 
-          this card is PURPOSEFULLY faded-->
-            <img class="card-img-top img-center" style='max-width:600px; max-height:450px' src="Images/kitpic2.jpg" alt="Card image cap">
+          <div class="card" > <!--coded so there is only one functioning project on projects page,  
+          this card is PURPOSEFULLY faded: style='opacity: 0.35;'-->
+            <iframe class="card-img-top img-center" src="https://docs.google.com/presentation/d/e/2PACX-1vRjiHl8u29V_HMgjhmNpENFex38N71W0erNA92sSGzBa2slJoQb62zlaxpoHS_XbLw0D9NIfQ8vZ90O/embed?start=true&loop=true&delayms=3000" 
+            frameborder="0" width="600" height="366" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            
             <div class="card-body">
-              <h5 class="card-title text-center"><strong>*THIS PROJECT IS BEING DEVELOPED*</strong></h5> <!--code for science fair is 
-              present but under development-->
-              <h5 class="card-text text-center">DPIE Science Fair 2018</h5>
-              <h6 class="card-text text-center">June 2018-July 2018, Biology with Research </h6>
-              <p class="card-text text-center">Over the summer, I took Biology with Research
-              at a Dublin Partners In Education program (DPIE). I participated in
-              the science fair with Andrea Jia and our project was titled "The 
-              Effect of Luminol Concentration and Temperature on Chemiluminescence." 
-              ~Our science fair project focused on the topic of luminescence and 
-              the best conditions in which light could endure. We were first 
-              inspired by the topic of bioluminescence, the natural emission of 
-              light in living organisms, and the scientific application of this 
-              to our current needs. Due to our inability to obtain actual bioluminescent
-              organisms, we decided to model the process with chemiluminescence, 
-              the production of light through chemical reactions.  For all intents
-              and purposes, the reactions are very similar. ~The above is a
-              direct excerpt from the final report submitted to Megan Sininger at 
-              the Science Fair.</p>
+              <h5 class="card-text text-center">Family Framers</h5>
+              <h6 class="card-text text-center">April 2019, Computer Science Principles</h6>
+              <p class="card-text text-center">During second semester of the 2018-2019,
+              I worked on an image manipulation project with my partner Megna Sankaranarayan.
+              This project was coded in Python and provided a variety of different 
+              manipulations that could be applied to inputted images. Our topic was 
+              focused on family, so our project brand was titled "Family Framers." In the beginning, 
+              we brainstormed different ideas on what we wanted our final product to look like.
+              We came up with the idea of having the customers choose from a variety of options.
+              Later, we also added a color parameter to all our frames so the user could choose 
+              how they wanted the frame to look. We created six different manipulations,
+              among them including black and white, abstract, and cutout shapes. I 
+              developed a large portion of the code for this
+              project. This project also helped learn how to make efficient use of the
+              Python Image Library (PIL) and numpy manipulations. 
+              Even though I focused on coding this project, I also worked with my 
+              partner to collaborate on <a target="_blank" href="https://docs.google.com/document/d/13KM5L9wl0qfMXVpkefxXCYbUWJxAoTuiiZ0woU6W7WA/edit?usp=sharing">
+              documentation</a>. At the end of the project, we created 
+              an online <a target="_blank" href="https://docs.google.com/presentation/d/1NBqiLPX3J_OJnm7bchkS7KxMZ_6E2Xf6G-Y9oI4CXkw/edit?usp=sharing">
+              presentation</a> to demonstrate our final product. </p>
             </div>
             <div class="card-footer"> 
-                 <p>To see our science fair report and online documentation,
-                 click <a target="_blank" href="https://docs.google.com/document/d/1Sd065UlgnF8dSmLSlfY5Mu3ma4q0Irwa-Xfi6fNjY2Y/edit?usp=sharing">
+                 <p>To see our
+              documentation and online notebook, click <a target="_blank" href="https://docs.google.com/document/d/13KM5L9wl0qfMXVpkefxXCYbUWJxAoTuiiZ0woU6W7WA/edit?usp=sharing">
               here</a></p>
-                  <small class="text-muted">***THIS PROJECT IS BEING DEVELOPED***</small> <!--coded so there is only one functioning project on projects page, 
+                  <small class="text-muted">Last updated 3 hours ago</small> <!--coded so there is only one functioning project on projects page, 
           this is PURPOSEFULLY faded-->
             </div>
           </div>
