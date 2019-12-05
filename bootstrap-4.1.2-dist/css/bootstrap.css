@@ -3810,7 +3810,6 @@ input[type="button"].btn-block {
   background-color: #dee2e6;
   border-color: transparent;
   border-radius: 1rem;
-}
 
 .custom-range::-ms-thumb {
   width: 1rem;
@@ -3925,6 +3924,7 @@ input[type="button"].btn-block {
   color: #b39c6e;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
+  font-family: 'Exo 2';
 }
 
 .nav-tabs .dropdown-menu {
