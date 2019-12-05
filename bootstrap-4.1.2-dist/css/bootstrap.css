@@ -3940,7 +3940,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: black;
-  background-color: #DEC096 /*#ffe6b3, #f9ebeb*/;
+  background-color: #fefbea /*#ffe6b3, #f9ebeb*/;
 }
 
 .nav-fill .nav-item {
