@@ -4892,7 +4892,6 @@ input[type="button"].btn-block {
   /*link to full-sized image*/
   background-size: 100%;
   opacity: 0.8;
-  height: 20rem;
 }
 
 .specialfont{ /*the font used for all jumbotron header 1 text*/
