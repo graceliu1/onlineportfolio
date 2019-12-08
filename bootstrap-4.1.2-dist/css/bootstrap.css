@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --MAINCOLOR: #FBDBC6;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -488,7 +489,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #DEC096;
+  background-color: #FBDBC6 ;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
