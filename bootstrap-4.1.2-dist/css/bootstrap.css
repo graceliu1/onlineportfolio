@@ -3941,7 +3941,9 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: black;
-  background-color:   #FBDBC6 /*#ffe6b3, #f9ebeb*/;
+  background-color:   #fff0db
+    /*PEACH COLOR = #FBDBC6 */ 
+    /*#ffe6b3, #f9ebeb*/;
 }
 
 .nav-fill .nav-item {
@@ -4383,7 +4385,8 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color:  #FBDBC6 /*other options for the background color: in order of previous changes... #ffeecc, #ffe6b3, #f9ebeb, #fdd8ce*/;
+  background-color:  #fff0db  /*other options for the background color: in order of previous changes... #ffeecc, #ffe6b3, #f9ebeb, #fdd8ce*/;
+  /* LIGHT PEACH = #FBDBC6 */
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;
