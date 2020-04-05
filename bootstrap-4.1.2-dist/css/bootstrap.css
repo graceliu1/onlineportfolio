@@ -3941,7 +3941,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: black;
-  background-color:   #fff0db
+  background-color:  #faf0e6
     /*PEACH COLOR = #FBDBC6 */ 
     /*#ffe6b3, #f9ebeb*/;
 }
@@ -4385,7 +4385,6 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color:  #fff0db  /*other options for the background color: in order of previous changes... #ffeecc, #ffe6b3, #f9ebeb, #fdd8ce*/;
   /* LIGHT PEACH = #FBDBC6 */
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0);
