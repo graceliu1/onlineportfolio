@@ -6,24 +6,51 @@
         <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"><!--link to google fonts for special styling-->
     </head>
     <body>
-       <header class="container">
+       <header class="container sticky-header sticky-top"> <!--add or remove container class-->
+           <!--
            <div>
                <br></br>
-            <img src="Images/websitelogo2.png" class="mx-auto d-block" height="60" >
+               <img src="Images/websitelogo2.png" class="mx-auto d-block" height="60" >
+               
            </div>
+           
            <div>
-            <!--same code for the navigation bar as index.html-->
-                <nav class="nav navbar nav-pills nav-fill">
-                    <a href="index.html" class="nav-item nav-link specialfont2">Home </a>
-                    <a href="Liu_AboutMe.html" class="nav-item nav-link active specialfont2">About Me</a> <!--current active webpage-->
-                    <a href="Liu_WorkExperience.html" class="nav-item nav-link specialfont2">Work Experience</a>
-                    <a href="Liu_Projects.html" class="nav-item nav-link specialfont2">Projects</a>
-                    <a href="Liu_ContactMe.html" class="nav-item nav-link specialfont2">Contact Me</a>
-                </nav>   
+                <nav class="navbar nav-pills nav-fill">
+                        <a href="index.html" class="nav-item nav-link active specialfont2">Home </a>
+                        <a href="Liu_AboutMe.html" class="nav-item nav-link specialfont2">About Me</a>
+                        <a href="Liu_WorkExperience" class="nav-item nav-link specialfont2">Work Experience</a>
+                        <a href="Liu_Projects.html" class="nav-item nav-link specialfont2">Projects</a>
+                        <a href="Liu_ContactMe.html" class="nav-item nav-link specialfont2">Contact Me</a>
+               </nav>   
            </div>
+        -->
+        
+        <nav class="navbar sticky-top navbar-expand-sm">
+            <a class= "navbar-brand" href = "index.html">
+            <img src="Images/websitelogo2.png"  height="60" >
+            </a>
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item specialfont2">
+            <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item specialfont2">
+            <a class="nav-link active" href="Liu_AboutMe.html">About Me</a>
+            </li>
+            <li class="nav-item specialfont2">
+            <a class="nav-link" href="Liu_WorkExperience">Work Experience</a>
+            </li>
+            <li class="nav-item specialfont2">
+            <a class="nav-link" href="Liu_Projects.html">Projects</a>
+            </li>
+            <li class="nav-item specialfont2">
+            <a class="nav-link" href="contact">Contact Me</a>
+            </li>
+            </ul>
+         </nav>
+        
         </header>
         
-        <div class="jumbotron text-center"> <!--Currently no container on the jumbotron class-->
+        <div class="jumbotron container text-center"> <!--Currently no container on the jumbotron class-->
                 <h1 class="specialfont">About Me</h1> <!--Large text on jumbotron-->
                 <p class="specialfont2">I am a sophomore student here at Dublin High School</p> <!--Small text on jumbotron-->
         </div>
