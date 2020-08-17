@@ -72,9 +72,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .sticky-header {
   background-color: #ffffff;
 }
-hr {
-  border: 1px darkbrown;
-}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -92,8 +89,9 @@ body {
 
 hr {
   box-sizing: content-box;
-  height: 0;
+  /*height: 0;*/
   overflow: visible;
+  border: 1px darkbrown;
 }
 
 h1, h2, h3, h4, h5, h6 {
