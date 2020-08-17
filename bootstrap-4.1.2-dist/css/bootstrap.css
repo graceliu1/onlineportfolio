@@ -24,6 +24,7 @@
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
+  --darkbrown: #97481B;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -71,7 +72,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .sticky-header {
   background-color: #ffffff;
 }
-
+hr {
+  border: 1px darkbrown;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
