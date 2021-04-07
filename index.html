@@ -3,17 +3,36 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
+        <meta http-equiv='expires' content='0'> 
+        <meta http-equiv='pragma' content='no-cache'>
         <!--<link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">-->
         <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> <!--link to google fonts for special styling-->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
+    <style>
+        * {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .jumbotron-header {
+            color: white;
+            background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ), url("Images/blue_wallpaper.jpg");
+            background-size: cover;
+            min-height: 550px;
+            display: block;
+            border-radius: 0;
+        }
+    </style>
     </head>
     
     <body>
-       <header> <!--add or remove container class-->
+       
            <!--
            <div>
                <br></br>
@@ -31,7 +50,7 @@
                </nav>   
            </div>
         -->
-     <!--
+        <!--
         <nav class="navbar sticky-top navbar-expand-sm">
             <a class= "navbar-brand" href = "index.html">
             <img src="Images/websitelogo2.png"  height="60" >
@@ -53,11 +72,12 @@
             <a class="nav-link" href="Liu_ContactMe.html">Contact Me</a>
             </li>
             </ul>
-         </nav>-->
+         </nav>
+        -->
          <nav class="navbar flex-wrap navbar-expand-md sticky-top navbar-light"> 
             <div class = "container d-flex">
             <!-- Brand --> 
-            <a class="navbar-brand" href="#"> <img class = "img-fluid" id="logo" alt="Logo" src="Images/websitelogo2.png" height="65"></a> 
+            <a class="navbar-brand" href="#"> <img id="logo" alt="Logo" src="Images/websitelogo2.png" height="65"></a> 
             
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
@@ -75,8 +95,6 @@
             </div>
         </nav>
         
-       
-        </header>
        
         <div class="container jumbotron text-center mx-auto" > <!--currently no container on the jumbotron class-->
             <div class = "container" >
