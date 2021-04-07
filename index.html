@@ -2,7 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+        <!--<link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">-->
         <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> <!--link to google fonts for special styling-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -28,7 +31,7 @@
                </nav>   
            </div>
         -->
-     
+     <!--
         <nav class="navbar sticky-top navbar-expand-sm">
             <a class= "navbar-brand" href = "index.html">
             <img src="Images/websitelogo2.png"  height="60" >
@@ -50,8 +53,27 @@
             <a class="nav-link" href="Liu_ContactMe.html">Contact Me</a>
             </li>
             </ul>
-         </nav>
-        
+         </nav>-->
+         <nav class="navbar flex-wrap navbar-expand-md sticky-top navbar-light"> 
+            <div class = "container d-flex">
+            <!-- Brand --> 
+            <a class="navbar-brand" href="#"> <img class = "img-fluid" id="logo" alt="Logo" src="Images/websitelogo2.png" height="65"></a> 
+            
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+            
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link <?php echo ($filename == 'index.php')? 'active':''; ?>" href="index.php">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link <?php echo ($filename == 'math_selection_action_page.php')? 'active':''; ?>" href="math_selection_action_page.php">Pathway</a> </li>
+                <li class="nav-item"> <a class="nav-link <?php echo ($filename == 'guide.php')? 'active':''; ?>" href="guide.php">Guide</a> </li>
+                <li class="nav-item"> <a class="nav-link <?php echo ($filename == 'contact.php')? 'active':''; ?>" href="contact.php">Contact</a> </li>
+                <li class="nav-item"> <a class="nav-link" target = "_blank" href="https://docs.google.com/document/d/1915aWCENg1Ps_Uwa6XLkvzW9Pyy7VfBA8L_aIKBLDbw/edit?usp=sharing"">Math Department</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
         
        
         </header>
