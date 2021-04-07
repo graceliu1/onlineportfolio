@@ -4900,17 +4900,19 @@ input[type="button"].btn-block {
   text-decoration: none;
   background-color: #1d2124;
 }
-
+/*
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  /*change in background color to image: background-color: #feefe1;*/
+  ***change in background color to image: background-color: #feefe1;***
   border-radius: 0.3rem;
-  background-image: url(https://png.pngtree.com/thumb_back/fw800/20151104/pngtree-Texture-Wallpaper-Backgrounds-Vintage-background-photo-801637.jpg);
-  /*link to full-sized image*/
+  background-image: 
+  
+  /*url(https://png.pngtree.com/thumb_back/fw800/20151104/pngtree-Texture-Wallpaper-Backgrounds-Vintage-background-photo-801637.jpg);*/
+  /*link to full-sized image
   background-size: 100%;
   opacity: 0.8;
-}
+}*/
 
 .specialfont{ /*the font used for all jumbotron header 1 text*/
   font-family: 'Exo 2';
