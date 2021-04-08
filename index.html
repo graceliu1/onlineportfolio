@@ -22,8 +22,8 @@
         .jumbotron {
             color: white;
             background-image: linear-gradient(
-            rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.05)
             ), url("Images/jumbotron_2.jpg");
             background-size: cover;
             margin-bottom: 1em;
@@ -37,10 +37,30 @@
             border: 3px solid black;
             max-width: 70%;
             height: 80px;
+            margin: auto;
         }
         .navbar-nav {
             margin-left:auto;
         }
+        footer .social-link {
+      width: 40px;
+      height: 40px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      border-radius: 50%;
+      transition: all 0.3s;
+      font-size: 0.9rem;
+  }
+
+  .social-link:hover,
+  .social-link:focus {
+    background: white;
+    text-decoration: none;
+    color: #555;
+  }
 
     </style>
     </head>
@@ -231,6 +251,16 @@
         
       <!-- Site footer -->
       <footer>
+
+        <ul class="social list-inline">
+                    
+            <li class="list-inline-item"><a href="mailto:dhsgirlsmatha@gmail.com" class="social-link"><i class="fas fa-envelope fa-lg"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/dhs.girlsmathassociation/" class="social-link"><i class="fab fa-instagram fa-lg"></i></a></li>
+            <li class="list-inline-item"><a href="https://discord.com/invite/tzZBVA8y" class="social-link"><i class="fab fa-discord fa-lg"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fas fa-share fa-lg"></i></a></li>
+
+            
+        </ul>
           <div class="container">
               <div class="mx-auto row">
                       <a href="mailto:forevergrace.15@gmail.com" target="_blank"> 

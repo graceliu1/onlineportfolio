@@ -503,8 +503,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #97481B; /*#FBDBC6 ;*/
-  border: 1px solid #97481B; /* #FBDBC6 ; <-- The classic pink-peach color*/
+  background-color: #023859; /*#FBDBC6 ;*/
+  border: 1px solid #023859; /* #FBDBC6 ; <-- The classic pink-peach color*/
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
