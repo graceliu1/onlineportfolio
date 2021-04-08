@@ -4399,8 +4399,8 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  /* LIGHT PEACH = #FBDBC6 */
-  background-color: #fff6f0;
+  /* LIGHT PEACH = #FBDBC6, #fff6f0*/
+  background-color: #9CC1D9;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;
