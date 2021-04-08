@@ -2382,18 +2382,18 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #c7a36e;
-  border-color: #c7a36e;
+  background-color: #03588C;
+  border-color: #03588C;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ad8940;
-  border-color: #c7a36e;
+  background-color: white;
+  border-color: black;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(111, 163, 219, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -4400,7 +4400,7 @@ input[type="button"].btn-block {
   min-width: 0;
   word-wrap: break-word;
   /* LIGHT PEACH = #FBDBC6, #fff6f0*/
-  background-color: #9CC1D9;
+  background-color: #DFEDF2;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;
