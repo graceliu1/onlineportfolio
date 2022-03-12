@@ -24,10 +24,12 @@
 }
 
 .container{
-    max-width: 800px;
+    max-width: 1200px;
 }
+
 .jumbotron-footer {
-    background-color: #03588C;
+    /*
+    background-color: #03588C; removed blue bg color for footer */
     text-align: center;
 }
 
@@ -47,7 +49,7 @@ footer .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #03588C;
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
@@ -60,7 +62,7 @@ footer .social-link {
 
 .social-link:hover,
 .social-link:focus {
-    background: white;
+    background: #03588C;
     text-decoration: none;
-    color: black;
+    color: white;
 }
