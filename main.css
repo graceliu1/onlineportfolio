@@ -49,7 +49,7 @@ footer .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #03588C;
+    color: #023859; /*this is the old blue darkish navy blue color#03588C;*/
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
