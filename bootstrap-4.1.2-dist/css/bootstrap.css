@@ -4936,7 +4936,7 @@ input[type="button"].btn-block {
   font-family: 'Exo 2';
   color: black;
   opacity: 1;
-  font-size:1.5em;
+  font-size:15px;
 }
 
 @media (min-width: 576px) {
